@@ -1,0 +1,97 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.1)50%,rgba(0,0,0,0.1)50%), url('pexels-johannes-plenio-1146708.jpg');
+    background-position: center;
+    background-size: cover;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+    height: 140vh;
+}
+.container{
+	position: relative;
+	margin-top: 0.1px;
+	width: 450px;
+	height: auto;
+	background: #dedede;
+	border-radius: 5px;
+}
+.label{
+	padding: 20px 130px;
+	font-size: 20px;
+	font-family: algerian;
+	color: #130f40;
+	
+}
+.login_form{
+	margin-top: -22px;
+	padding: 10px 40px;
+	border: 2px#1A237E;
+	background: linear-gradient(to top, rgba(54, 49, 49, 0.1)50%,rgba(53, 49, 49, 0.1)50%)
+	
+	
+}
+.login_form .font{
+	font-size: 18px;
+	color: #130f40;
+	margin: 5px 0;
+	font-family: algerian;
+}
+.login_form input{
+	height: 40px;
+	width: 350px;
+	padding: 0 5px;
+	font-family: 'Times New Roman';
+	font-size: 18px;
+	outline: none;
+	border: 1px solid silver;
+}
+.login_form .font2{
+	margin-top: 10px;
+}
+.login_form button{
+	margin: 45px 0 30px 0;
+	height: 45px;
+	width: 365px;
+	font-size: 20px;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background: #1A237E;
+	border-radius: 3px;
+	border: 1px solid #3949AB;
+	transition: .5s;
+}
+.login_form button:hover{
+	background: #151c6a;
+}
+.login_form #email_error,
+.login_form #pass_error{
+	margin-top: 5px;
+	width: 345px;
+	font-size: 18px;
+	color: #C62828;
+	background: rgba(255,0,0,0.1);
+	text-align: center;
+	padding: 5px 8px;
+	border-radius: 3px;
+	border: 1px solid #EF9A9A;
+	display: none;
+}
+
+
+.nu{
+	font-weight: bold;
+}
+
+.card-footer{
+	color: darkslategrey;
+	font-weight: bolder;
+	text-align: right;
+	position: relative;
+}
